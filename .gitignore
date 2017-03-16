@@ -174,8 +174,6 @@ mpn/*.c
 mpn/*.as
 mpn/*.asm
 Makefile
-mpir.h
-config.h
 config.m4
 config.log
 config.status
@@ -196,9 +194,6 @@ yasm/po/Makefile.in
 yasm/po/POTFILES
 yasm/stamp-h1
 yasm_mac.inc
-gmp.h
-longlong.h
-gmp-mparam.h
 tune/sqr_basecase.c
 autoscript
 cdata
