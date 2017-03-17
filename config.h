@@ -44,17 +44,17 @@ MA 02110-1301, USA.
 #define HAVE_ALLOCA_H 1
 
 /* Define to 1 if the compiler accepts gcc style __attribute__ ((const)) */
-#define HAVE_ATTRIBUTE_CONST 1
+//#define HAVE_ATTRIBUTE_CONST 1
 
 /* Define to 1 if the compiler accepts gcc style __attribute__ ((malloc)) */
-#define HAVE_ATTRIBUTE_MALLOC 1
+//#define HAVE_ATTRIBUTE_MALLOC 1
 
 /* Define to 1 if the compiler accepts gcc style __attribute__ ((mode (XX)))
    */
-#define HAVE_ATTRIBUTE_MODE 1
+//#define HAVE_ATTRIBUTE_MODE 1
 
 /* Define to 1 if the compiler accepts gcc style __attribute__ ((noreturn)) */
-#define HAVE_ATTRIBUTE_NORETURN 1
+//#define HAVE_ATTRIBUTE_NORETURN 1
 
 /* Define to 1 if you have the `attr_get' function. */
 /* #undef HAVE_ATTR_GET */
@@ -275,7 +275,7 @@ MA 02110-1301, USA.
 #define HAVE_NL_TYPES_H 1
 
 /* Define to 1 if you have the `obstack_vprintf' function. */
-#define HAVE_OBSTACK_VPRINTF 1
+//#define HAVE_OBSTACK_VPRINTF 1
 
 /* Define to 1 if you have the `popen' function. */
 #define HAVE_POPEN 1
