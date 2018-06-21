@@ -8,6 +8,15 @@ file(GLOB s3 "mpn/generic/*.c")
 file(GLOB s4 "mpq/*.c")
 file(GLOB s5 "mpz/*.c")
 file(GLOB s6 "printf/*.c")
+
+if( APPLE )
+    # Apple Specific Options Here
+else( APPLE )
+    # Linux Specific Options Here
+    set (CMAKE_C_FLAGS ${CMAKE_C_FLAGS} -fPIC)
+    set( CMAKE_CXX_FLAGS ${CMAKE_C_FLAGS} -Wall )
+endif ( APPLE )
+
 add_library(mpz assert.c errno.c memory.c mp_bpl.c mp_minv_tab.c tal-reent.c ${s1} ${s2} ${s3} ${s4} ${s5} ${s6})
 target_include_directories(mpz PUBLIC ${CMAKE_SOURCE_DIR})
 
